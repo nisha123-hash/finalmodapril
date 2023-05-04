@@ -1,0 +1,245 @@
+body{
+    background-color: #333333;
+}
+.nav-container{
+    display: flex;
+    border-radius: 50px;
+    justify-content: space-between;
+    border:1px solid #B1A592;
+    align-items: center;
+    height:60px;
+    margin-left:19px;
+    margin-right: 22px;
+}
+.nav-item1{
+    display: flex;
+    justify-content:start;
+    gap:7px;
+    
+    align-items: center;
+}
+.nav-item1>section{
+    
+    /* margin: 6px; */
+    background-color: #323025;
+    border-radius: 50px;
+    width: 282px;
+    height: 50px;
+}
+.nav-item1>section p{
+    color: #B1A592;
+    font-size: 24px;
+    text-align: center;
+    margin-top:8px;
+    font-weight: 400;
+}
+button{
+    border:1px solid #B1A592;
+    background-color: #333333;
+    color: #B1A592;
+    border-radius: 50px;
+    text-decoration: none;
+    width: 282px;
+    height: 50px;
+    font-weight: 400;
+}
+.nav-item2{
+    display: flex;
+    justify-content: end;
+}
+.nav-item2>button{
+    background-color:#333333;
+    color:#B1A592;
+    border-radius: 50px;
+    margin-right:7px;
+}
+button:hover{
+    background-color:  #B1A592;
+    color:black;
+}
+.section-container{
+    display: flex;
+    flex-direction: row;
+    margin: 18px 35px;
+    gap:10px;
+}
+
+.section-item1{
+    background-color: #DFD6C5;
+    border-radius: 30px;
+    padding:20px;
+    width: 667px;
+height: 989px;
+}
+.internal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.section-item1>.one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 207px;
+    height: 34px;
+    border:1px solid #323025;
+    border-radius:50px;
+    
+}
+.section-item1>.one p{
+    color:#323025
+}
+.section-item1>.two{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.section-item1>.two u{
+    width: 271px;
+    height: 29px;
+    font-weight: 700;
+font-size: 24px;
+}
+.three{
+    height:800px;
+    overflow: hidden;
+}
+.three img{
+    transition: transform .5s ease;
+  }
+  
+  
+  .three:hover img{
+    transform: scale(1.1);
+  }
+  .section-item2{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  .topsec{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 300px;
+    background-color: #8E886D;
+    border-radius: 30px;
+    padding: 30px;
+  }
+  .part1{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+  }
+  .part2{
+    display: flex;
+    flex-direction: column;
+  }
+  .part2>.internal{
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+height: 600px;
+border-radius: 30px;
+    background-color:#916E58 ;
+    padding: 30px;
+  }
+  .five>img{
+    width: 300px;
+  }
+  .four>img{
+    width: 400px;
+  }
+  .sidetext>.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 180px;
+    height: 34px;
+    border:1px solid #323025;
+    border-radius:50px;
+    margin-bottom: 7px;
+}
+.sidetext>.two{
+    font-weight: 700;
+font-size: 24px;
+color:  #333333;
+}
+.left u{
+    font-weight: 700;
+font-size: 36px;
+color:  #333333;
+}
+.right>.top{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+height: 620px;
+background-color: #B1A48E;
+border-radius: 30px;
+padding: 20px;
+}
+.four{
+    height:800px;
+    overflow: hidden;
+}
+.four img{
+    transition: transform .5s ease;
+  }
+  
+  
+  .four:hover img{
+    transform: scale(1.1);
+  }
+  .five{
+    height:800px;
+    overflow: hidden;
+}
+.five img{
+    transition: transform .5s ease;
+  }
+  
+  
+  .five:hover img{
+    transform: scale(1.1);
+  }
+  .top u{
+    font-weight: 700;
+font-size: 36px;
+  }
+  .top p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 34px;
+    border:1px solid #323025;
+    border-radius:50px;
+    
+}
+.six{
+    height:120px;
+    overflow: hidden;
+}
+.six img{
+    transition: transform .5s ease;
+  }
+  
+  
+  .six:hover img{
+    transform: scale(1.1);
+  }
